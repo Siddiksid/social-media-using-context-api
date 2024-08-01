@@ -1,9 +1,10 @@
-import PostCard from "./PostCard";
-
+import MainContainer from "./MainContainer/MainContainer";
+import NavBar from "./Navbar/Navbar";
 function SocialApp() {
   return (
     <div>
-      <PostCard />
+      <NavBar />
+      <MainContainer />
     </div>
   );
 }
